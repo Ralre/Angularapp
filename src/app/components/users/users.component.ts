@@ -69,9 +69,10 @@ export class UsersComponent implements OnInit {
 
   }
 
-  fireEvent(e) {
-    console.log('Button Clicked');
-    console.log(e.type);
-  }
+
+  // toggleHide(user: User) {
+  //   user.hide = !user.hide ;
+
+  // }
 
 }
